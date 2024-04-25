@@ -1,3 +1,31 @@
-name=anuj
-vfkvvkl
-bkbvbvkwj
+lanch instance
+name
+key
+ubunto
+lanch instance
+
+security
+inbound add rules
+all trafic ipv4
+
+copy ip address
+
+putty
+copy on host name
+
+data user name ubuntu
+shs>auth>credential select key open  accept
+
+sudo apt update
+docker -v
+sudo apt install docker.io
+sudo docker pull nginx
+sudo docker images
+sudo docker run --name tlfweb -d -t 8080:8080 nginx
+sudo docker ps
+
+git clone
+cd repo
+sudo docker build -t node .
+sudo docker images
+sudo docker run --name tflstore -d -p 8000:8000 node
