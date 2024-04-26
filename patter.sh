@@ -3,14 +3,14 @@
 echo "enter n"
 read n
 
-for((i=1;i<n;i++))
+for((i=1;i<=n;i++))
 do
-    for((j=0;j<n-i;j++))
+    for((j=1;j<=n-i;j++))
     do
     echo -n "_"
     done
 
-    for((j=0;j<2*i-1;j++))
+    for((j=1;j<=2*i-1;j++))
         do
         echo -n "*"
         done
